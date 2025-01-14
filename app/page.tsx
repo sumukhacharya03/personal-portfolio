@@ -1,7 +1,4 @@
 "use client"; // Mark the file as a client component
-<head>
-  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
-</head>
 
 import Image from "next/image";
 import { useState } from "react";
@@ -10,10 +7,10 @@ export default function Home() {
   const [section, setSection] = useState("home");
 
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start mt-[-120px]">
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-4 sm:p-8 md:p-16 lg:p-20 gap-8 sm:gap-16 font-[family-name:var(--font-geist-sans)]">
+      <main className="flex flex-col gap-4 sm:gap-8 row-start-2 items-center sm:items-start w-full max-w-7xl px-4 sm:px-6 lg:px-8 mt-[-120px]">
         {/* Navigation Section */}
-        <nav className="w-full flex justify-center sm:justify-start gap-8 mb-12 ">
+        <nav className="w-full overflow-x-auto flex justify-start gap-4 sm:gap-8 mb-8 sm:mb-12 px-2 sm:px-0">
           <button
             onClick={() => setSection("home")}
             className={`text-lg font-semibold transition-all duration-300 hover:scale-105 ${
@@ -211,10 +208,10 @@ export default function Home() {
         {/* Projects Section */}
         {section === "projects" && (
           <section className="w-full">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
               My Projects
             </h2>
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
+            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-4 sm:gap-6 w-full">
               {/* Project 1 */}
               <div className="p-4 border rounded-lg shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-blue-500">
                 <Image
@@ -222,7 +219,7 @@ export default function Home() {
                   alt="DFOS"
                   width={400}
                   height={200}
-                  className="rounded-md"
+                  className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">
                   DFOS (Distributed File Orchestration and Synchronization for
@@ -264,7 +261,7 @@ export default function Home() {
                   alt="Project 2"
                   width={400}
                   height={200}
-                  className="rounded-md"
+                  className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">Lung Cancer ML</h3>
                 <div className="text-sm text-gray-600">
@@ -297,7 +294,7 @@ export default function Home() {
                   alt="Project 3"
                   width={400}
                   height={200}
-                  className="rounded-md"
+                  className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">
                   Sports Equipment Rental Management System
@@ -330,7 +327,7 @@ export default function Home() {
                   alt="Project 4"
                   width={400}
                   height={200}
-                  className="rounded-md"
+                  className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">
                 Streamly Content Performance Analysis
@@ -371,7 +368,7 @@ export default function Home() {
                     alt="Project 4"
                     width={400}
                     height={200}
-                    className="rounded-md"
+                    className="rounded-md w-full h-auto object-cover"
                   />
                   <h3 className="text-lg font-medium mt-2">
                   RideWave Fare Forecasting
@@ -414,7 +411,7 @@ export default function Home() {
                     alt="Project 6"
                     width={400}
                     height={200}
-                    className="rounded-md"
+                    className="rounded-md w-full h-auto object-cover"
                   />
                   <h3 className="text-lg font-medium mt-2">
                   Restaurant Ordering System
@@ -454,7 +451,7 @@ export default function Home() {
         {/* Work Experience Section */}
         {section === "work-experience" && (
           <section className="w-full">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
               My Internships
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -465,7 +462,7 @@ export default function Home() {
                   alt="CODMAV"
                   width={400}
                   height={200}
-                  className="rounded-md"
+                  className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">
                 CODMAV(Center of Data Modelling and Visualization)PESU
@@ -511,7 +508,7 @@ export default function Home() {
         {/* Achievements Section */}
         {section === "achievements" && (
           <section className="w-full">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
             Hackathons
             </h2>
             <ul className="list-disc pl-5">
@@ -520,7 +517,7 @@ export default function Home() {
               <li className="text-lg">Placed 5th in ML Kaggle Hackathon</li>
               <li className="text-lg">Participated in other Hackathons like Ingenious, Hacknight etc.</li>
             </ul>
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
             Certificates
             </h2>
             <ul className="list-disc pl-5">
@@ -555,7 +552,7 @@ export default function Home() {
         {/* Photography Section */}
         {section === "photography" && (
           <section className="w-full mt-[-20px]">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
               Few of my Best Clicks
             </h2>
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
@@ -567,7 +564,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105"
+                  className="rounded-md w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 2 */}
@@ -578,7 +575,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105"
+                  className="rounded-md w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 3 */}
@@ -589,7 +586,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105"
+                  className="rounded-md w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 4 */}
@@ -601,7 +598,7 @@ export default function Home() {
                       layout="responsive"
                       width={400}
                       height={200}
-                      className="rounded-md transition-all duration-300 hover:scale-110"
+                      className="rounded-md w-full h-auto object-cover transition-all duration-300 hover:scale-110"
                 />
                 </div>
               </div>
@@ -614,7 +611,7 @@ export default function Home() {
                       layout="responsive"
                       width={400}
                       height={200}
-                      className="rounded-md transition-all duration-300 hover:scale-110"
+                      className="rounded-md w-full h-auto object-cover transition-all duration-300 hover:scale-110"
                 />
                 </div>
               </div>
@@ -626,7 +623,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105"
+                  className="rounded-md w-full h-auto object-cover transition-transform duration-300 hover:scale-105"
                 />
               </div>
             </div>
@@ -636,7 +633,7 @@ export default function Home() {
         {/* Contact Section */}
         {section === "contact" && (
           <section className="w-full mt-[-40px]">
-            <h2 className="text-xl sm:text-2xl font-semibold mb-4">
+            <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
               Contact Me
             </h2>
             <p className="text-lg sm:text-xl text-gray-600">
@@ -664,7 +661,7 @@ export default function Home() {
         )}
       </main>
 
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
+      <footer className="row-start-3 flex gap-4 sm:gap-6 flex-wrap items-center justify-center w-full px-4 py-6">
         <a
           className="flex items-center gap-2 transition-all duration-300 hover:text-blue-500 hover:-translate-y-1"
           href="https://github.com/sumukhacharya03"
