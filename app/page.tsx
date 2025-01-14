@@ -340,8 +340,8 @@ export default function Home() {
                     how to improve user engagement, and how to forecast trends to stay ahead of the competition.
                     </li>
                     <li>
-                    Streamly has a rich dataset containing information about movies and series' aired on the platform. 
-                    I analysed the data and provide valuable insights that can guide Streamly's decision-making.
+                    Streamly has a rich dataset containing information about movies and series aired on the platform. 
+                    I analysed the data and provide valuable insights that can guide Streamly&apos;s decision-making.
                     </li>
                     <li>
                     I performed Data Exploration and Preparation,
@@ -420,7 +420,7 @@ export default function Home() {
                     <ul className="list-disc pl-5 text-sm text-gray-600">
                       <li>
                       I have implemented socket programming to create a client-server architecture where 
-                      the client represents the person placing the food order, while the server collects the client's order information.
+                      the client represents the person placing the food order, while the server collects the client&apos;s order information.
                       </li>
                       <li>
                       It then displays the order details to the client, such as the items ordered with their respective quantities in a tabular form. 
@@ -430,7 +430,7 @@ export default function Home() {
                       The system also allows the client to provide feedback, which the server displays. Once the client finishes the order, they can exit the system.
                       </li>
                       <li>
-                      Furthermore, we've integrated SSL as an extra layer of security to enhance the system's safety.
+                      Furthermore, we&apos;ve integrated SSL as an extra layer of security to enhance the system&apos;s safety.
                       </li>
                     </ul>
                   </div>
