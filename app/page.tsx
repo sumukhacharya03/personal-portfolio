@@ -10,7 +10,7 @@ export default function Home() {
     <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
       <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start mt-[-120px]">
         {/* Navigation Section */}
-        <nav className="w-full flex flex-wrap sm:flex-nowrap gap-4 sm:gap-8 mb-12 justify-center sm:justify-start">
+        <nav className="w-full flex justify-center sm:justify-start gap-8 mb-12 ">
           <button
             onClick={() => setSection("home")}
             className={`text-lg font-semibold transition-all duration-300 hover:scale-105 ${
@@ -71,13 +71,13 @@ export default function Home() {
 
         {/* Profile Section */}
         {section === "home" && (
-          <section className=" p-4 sm:p-8 flex flex-col items-center sm:items-start text-center sm:text-left mt-[-40px]">
+          <section className="flex flex-col items-center sm:items-start text-center sm:text-left mt-[-40px]">
             <Image
               src="/me.jpg"
               alt="Profile Picture"
               width={120}
               height={120}
-              className="rounded-full transition-all duration-300 hover:scale-110 w-full sm:w-auto"
+              className="rounded-full transition-all duration-300 hover:scale-110"
             />
             <h1 className="text-white-600 text-2xl sm:text-4xl font-bold mt-4">
               Hello, I&apos;m Sumukh Acharya
@@ -95,7 +95,7 @@ export default function Home() {
 
         {/* About Me Section */}
         {section === "aboutme" && (
-          <section className="p-4 sm:p-8 w-full mt-[-20px]">
+          <section className="w-full mt-[-20px]">
             <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-6">
               {/* Education */}
               <div className="p-4 border rounded-lg shadow-sm">
@@ -195,7 +195,7 @@ export default function Home() {
 
         {/* Projects Section */}
         {section === "projects" && (
-          <section className="p-4 sm:p-8 w-full">
+          <section className="w-full">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
               My Projects
             </h2>
@@ -207,7 +207,7 @@ export default function Home() {
                   alt="DFOS"
                   width={400}
                   height={200}
-                  className="rounded-md w-full sm:w-auto"
+                  className="rounded-md"
                 />
                 <h3 className="text-lg font-medium mt-2">
                   DFOS (Distributed File Orchestration and Synchronization for
@@ -249,7 +249,7 @@ export default function Home() {
                   alt="Project 2"
                   width={400}
                   height={200}
-                  className="rounded-md w-full sm:w-auto"
+                  className="rounded-md"
                 />
                 <h3 className="text-lg font-medium mt-2">Lung Cancer ML</h3>
                 <div className="text-sm text-gray-600">
@@ -285,7 +285,7 @@ export default function Home() {
                   alt="Project 3"
                   width={400}
                   height={200}
-                  className="rounded-md w-full sm:w-auto"
+                  className="rounded-md"
                 />
                 <h3 className="text-lg font-medium mt-2">
                   Sports Equipment Rental Management System
@@ -317,7 +317,7 @@ export default function Home() {
                   alt="Project 4"
                   width={400}
                   height={200}
-                  className="rounded-md w-full sm:w-auto"
+                  className="rounded-md"
                 />
                 <h3 className="text-lg font-medium mt-2">
                 Streamly Content Performance Analysis
@@ -355,7 +355,7 @@ export default function Home() {
                     alt="Project 4"
                     width={400}
                     height={200}
-                    className="rounded-md w-full sm:w-auto"
+                    className="rounded-md"
                   />
                   <h3 className="text-lg font-medium mt-2">
                   RideWave Fare Forecasting
@@ -391,7 +391,7 @@ export default function Home() {
 
         {/* Work Experience Section */}
         {section === "work-experience" && (
-          <section className="p-4 sm:p-8 w-full">
+          <section className="w-full">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
               My Internships
             </h2>
@@ -403,7 +403,7 @@ export default function Home() {
                   alt="CODMAV"
                   width={400}
                   height={200}
-                  className="rounded-md w-full sm:w-auto"
+                  className="rounded-md"
                 />
                 <h3 className="text-lg font-medium mt-2">
                 CODMAV(Center of Data Modelling and Visualization)PESU
@@ -448,7 +448,7 @@ export default function Home() {
 
         {/* Achievements Section */}
         {section === "achievements" && (
-          <section className="p-4 sm:p-8 w-full">
+          <section className="w-full">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
             Hackathons
             </h2>
@@ -492,7 +492,7 @@ export default function Home() {
 
         {/* Photography Section */}
         {section === "photography" && (
-          <section className="p-4 sm:p-8 w-full mt-[-20px]">
+          <section className="w-full mt-[-20px]">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
               Few of my Best Clicks
             </h2>
@@ -505,7 +505,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105 w-full sm:w-auto"
+                  className="rounded-md transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 2 */}
@@ -516,7 +516,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105 w-full sm:w-auto"
+                  className="rounded-md transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 3 */}
@@ -526,8 +526,8 @@ export default function Home() {
                   alt="Click-3"
                   layout="responsive"
                   width={400}
-                  height={200} 
-                  className="rounded-md transition-transform duration-300 hover:scale-105 w-full sm:w-auto"
+                  height={200}
+                  className="rounded-md transition-transform duration-300 hover:scale-105"
                 />
               </div>
               {/* Click 4 */}
@@ -539,7 +539,7 @@ export default function Home() {
                       layout="responsive"
                       width={400}
                       height={200}
-                      className="rounded-md transition-all duration-300 hover:scale-110 w-full sm:w-auto"
+                      className="rounded-md transition-all duration-300 hover:scale-110"
                 />
                 </div>
               </div>
@@ -552,7 +552,7 @@ export default function Home() {
                       layout="responsive"
                       width={400}
                       height={200}
-                      className="rounded-md transition-all duration-300 hover:scale-110 w-full sm:w-auto"
+                      className="rounded-md transition-all duration-300 hover:scale-110"
                 />
                 </div>
               </div>
@@ -564,7 +564,7 @@ export default function Home() {
                   layout="responsive"
                   width={400}
                   height={200}
-                  className="rounded-md transition-transform duration-300 hover:scale-105 w-full sm:w-auto"
+                  className="rounded-md transition-transform duration-300 hover:scale-105"
                 />
               </div>
             </div>
@@ -573,7 +573,7 @@ export default function Home() {
 
         {/* Contact Section */}
         {section === "contact" && (
-          <section className="p-4 sm:p-8 w-full mt-[-40px]">
+          <section className="w-full mt-[-40px]">
             <h2 className="text-xl sm:text-2xl font-semibold mb-4">
               Contact Me
             </h2>
