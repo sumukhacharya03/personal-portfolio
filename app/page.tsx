@@ -1,5 +1,8 @@
 "use client"; // Mark the file as a client component
-<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1"></meta>
+</head>
+
 import Image from "next/image";
 import { useState } from "react";
 
