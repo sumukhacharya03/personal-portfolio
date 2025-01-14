@@ -20,6 +20,11 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "Sumukh Acharya - Portfolio",
   description: "Personal portfolio website of Sumukh Acharya - Computer Science Engineering student at PES University",
+  viewport:{
+    width:'device-width',
+    initialScale: 1,
+    maximumScale: 1,
+  }
 };
 
 interface RootLayoutProps {

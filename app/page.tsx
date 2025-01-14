@@ -7,7 +7,7 @@ export default function Home() {
   const [section, setSection] = useState("home");
 
   return (
-    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen p-4 sm:p-8 md:p-16 lg:p-20 gap-8 sm:gap-16 font-[family-name:var(--font-geist-sans)]">
+    <div className="grid grid-rows-[auto_1fr_auto] items-center justify-items-center min-h-screen w-full max-w-full p-4 sm:p-8 md:p-12 lg:p-20 gap-8 sm:gap-16 font-[family-name:var(--font-geist-sans)] overflow-x-hidden">
       <main className="flex flex-col gap-4 sm:gap-8 row-start-2 items-center sm:items-start w-full max-w-7xl px-4 sm:px-6 lg:px-8 mt-[-120px]">
         {/* Navigation Section */}
         <nav className="w-full overflow-x-auto flex justify-start gap-4 sm:gap-8 mb-8 sm:mb-12 px-2 sm:px-0">
