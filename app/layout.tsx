@@ -3,6 +3,10 @@ import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
 import { ReactNode } from "react";
 
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+</head>
+
 const geistSans = Geist({
   variable: "--font-geist-sans",
   subsets: ["latin"],
