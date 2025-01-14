@@ -25,8 +25,8 @@ interface RootLayoutProps {
 export default function RootLayout({ children }: RootLayoutProps) {
   return (
     <html lang="en" className={`${geistSans.variable} ${geistMono.variable}`} suppressHydrationWarning>
-      <body suppressHydrationWarning className="min-h-screen">
-        {children}
+      <body suppressHydrationWarning className="min-h-screen flex justify-center">
+        <div className="w-full max-w-screen-lg px-4 sm:px-8">{children}</div>
       </body>
     </html>
   );
