@@ -416,8 +416,8 @@ export default function Home() {
                     Duration: 2/06/2024 to 2/08/2024
                   </li>
                   <li>
-                    Along with three teammates, I worked on a machine learning project titled "Predictive
-                    Analytics for Early Lung Cancer Risk Using Machine Learning".
+                    Along with three teammates, I worked on a machine learning project titled &quot;Predictive
+                    Analytics for Early Lung Cancer Risk Using Machine Learning&quot;.
                   </li>
                   <li>
                     My role involved preprocessing the
