@@ -80,7 +80,7 @@ export default function Home() {
               className="rounded-full transition-all duration-300 hover:scale-110"
             />
             <h1 className="text-white-600 text-2xl sm:text-4xl font-bold mt-4">
-              Hello, I'm Sumukh Acharya
+              Hello, I&apos;m Sumukh Acharya
             </h1>
             <p className="text-lg sm:text-xl text-gray-400">
             <b className="text-[#4DAFFF]">Bangalore, KA</b><br></br>
@@ -104,7 +104,7 @@ export default function Home() {
               </h3>
               <div className="mt-4 space-y-4">
                 <div className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">
-                <b>Sri Kumaran Children's Home (2009-2020)</b><br />
+                <b>Sri Kumaran Children&apos;s Home (2009-2020)</b><br />
                 Class 1-10<br />
                 Bengaluru, Karnataka<br />
                 CBSE Class 10 - 90%
