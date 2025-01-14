@@ -1,5 +1,5 @@
 "use client"; // Mark the file as a client component
-
+<meta name="viewport" content="width=device-width, initial-scale=1"></meta>
 import Image from "next/image";
 import { useState } from "react";
 
@@ -85,7 +85,7 @@ export default function Home() {
             <p className="text-lg sm:text-xl text-gray-400">
             <b className="text-[#4DAFFF]">Bangalore, KA</b><br></br>
             I am a 6th-semester Computer Science Engineering student at PES University. I am passionate about
-            topics such as Data Analytics, Machine Learning, and Databases. I love playing around with Data.
+            topics such as Data Analytics, Machine Learning, Deep Learning and Databases. I love playing around with Data.
             Outside of academics, I enjoy playing chess and badminton, and I have passion for photography. I
             possess strong qualities in teamwork, communication, problem-solving, and a genuine eagerness to
             learn new things.
@@ -151,6 +151,7 @@ export default function Home() {
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Git</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">GitHub</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">VS Code</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">MS Office</span>
                 </div>
               </div>
               <div className="mt-4">
@@ -194,6 +195,8 @@ export default function Home() {
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">English</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Konkani</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Kannada</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Hindi</span>
                 </div>
               </div>
               </div>
@@ -272,9 +275,6 @@ export default function Home() {
                     <li>
                     An ensemble model combining individual outputs achieved top metrics, with RFE-based feature selection delivering the highest accuracy (98.746%) and recall (96.245%).
                     </li>
-                    <li>
-                    Demonstrated the potential of machine learning for early lung cancer detection, improving survival rates, and reducing healthcare costs.
-                    </li>
                   </ul>
                 </div>
                 <a
@@ -302,11 +302,12 @@ export default function Home() {
                 <div className="text-sm text-gray-600">
                   <ul className="list-disc pl-5 text-sm text-gray-600">
                     <li>
-                    Developed a system which allows students to browse, select and rent/reserve sports equipments
-                    in universities, and the admin tracks everything.
+                    The system allows students to browse, select, and rent various sports equipment from a centralized database, 
+                    while also tracking the availability of each item in real time.
                     </li>
                     <li>
-                    I developed this system using MySQL, python and Streamlit.
+                    The database is managed by an admin, who has the ability to oversee and update equipment availability, 
+                    ensuring an efficient and smooth experience for both users and administrators.
                     </li>
                   </ul>
                 </div>
@@ -334,16 +335,19 @@ export default function Home() {
                 <div className="text-sm text-gray-600">
                   <ul className="list-disc pl-5 text-sm text-gray-600">
                     <li>
-                    Streamly is a leading online streaming platform with millions of subscribers. The company has a
-                    rich dataset containing detailed information about its content library, including movies and
-                    series.
+                    In the world of streaming services, optimizing content strategy is crucial for attracting and retaining users. 
+                    Companies like Streamly are constantly striving to understand what content resonates most with their audience, 
+                    how to improve user engagement, and how to forecast trends to stay ahead of the competition.
                     </li>
                     <li>
-                    I analyzed this data using various techniques to identify which types of content perform the best
-                    and how to optimize the release strategy to maximize user retention. I employed methods such as
-                    data preprocessing and visualizations (e.g., heatmaps, boxplots, and histograms) to process the
-                    data. Additionally, I applied predictive models like Multiple Linear Regression (MLR) and
-                    Random Forest Regression (RFR) to evaluate the datasets, along with inferences.
+                    Streamly has a rich dataset containing information about movies and series' aired on the platform. 
+                    I analysed the data and provide valuable insights that can guide Streamly's decision-making.
+                    </li>
+                    <li>
+                    I performed Data Exploration and Preparation,
+                    Comprehensive Movie Performance Analysis,
+                    Correlation analysis,
+                    User Retention Analysis and Modeling.
                     </li>
                   </ul>
                 </div>
@@ -372,20 +376,66 @@ export default function Home() {
                   <div className="text-sm text-gray-600">
                     <ul className="list-disc pl-5 text-sm text-gray-600">
                       <li>
-                      RideWave is an urban mobility service based in Quahog City, offering three types of vehicles:
-                      bikes, autos, and cars. The company has a rich dataset containing hourly data from 2021 to 2023.
+                      RideWave, a versatile urban mobility service, has been operating in Quahog City for the past five years. 
+                      The company offers three types of vehicles: bikes, autos (three-wheeled vehicles), and cars. As they face increasing competition, 
+                      RideWave wants to leverage its historical data to optimize pricing strategies for each vehicle type in Quahog City.
                       </li>
                       <li>
-                      I analyzed this data using various techniques to help RideWave implement dynamic pricing
-                      through data visualization and forecasting methods. I employed data preprocessing and
-                      visualizations (e.g., heatmaps, boxplots, and histograms) to process the data. Additionally, I
-                      applied predictive models such as XGBoost, SARIMAX, and VAR to evaluate the datasets and
-                      draw meaningful insights.
+                      RideWave has a rich dataset containing hourly data from 2021 to 2023 for bikes, autos and cars from RideWave. 
+                      I analyzed the provided data, developed predictive models for fare forecasting, 
+                      and provided actionable insights to help RideWave implement dynamic pricing across its multi-vehicle fleet in Quahog City.
+                      </li>
+                      <li>
+                      I performed Data Exploration and Preparation,
+                      Time Series Characterization,
+                      Advanced Forecasting and Feature Engineering,
+                      Ensemble Modeling and Pricing Strategy.
                       </li>
                     </ul>
                   </div>
                   <a
                     href="https://github.com/sumukhacharya03/Fare-Forecasting-in-Quahog-City"
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-blue-500 hover:underline mt-2 inline-block"
+                    >
+                      View Project →
+                    </a>
+                </div>
+              </div>
+              <div>
+                {/* Project 6 */}
+                <div className="p-4 border rounded-lg shadow-sm transition-all duration-300 hover:shadow-lg hover:-translate-y-1 hover:border-blue-500">
+                  <Image
+                    src="/order.png"
+                    alt="Project 6"
+                    width={400}
+                    height={200}
+                    className="rounded-md"
+                  />
+                  <h3 className="text-lg font-medium mt-2">
+                  Restaurant Ordering System
+                  </h3>
+                  <div className="text-sm text-gray-600">
+                    <ul className="list-disc pl-5 text-sm text-gray-600">
+                      <li>
+                      I have implemented socket programming to create a client-server architecture where 
+                      the client represents the person placing the food order, while the server collects the client's order information.
+                      </li>
+                      <li>
+                      It then displays the order details to the client, such as the items ordered with their respective quantities in a tabular form. 
+                      Additionally, the server calculates and presents the bill, including GST tax.
+                      </li>
+                      <li>
+                      The system also allows the client to provide feedback, which the server displays. Once the client finishes the order, they can exit the system.
+                      </li>
+                      <li>
+                      Furthermore, we've integrated SSL as an extra layer of security to enhance the system's safety.
+                      </li>
+                    </ul>
+                  </div>
+                  <a
+                    href="https://github.com/sumukhacharya03/Restaurant-Ordering-System"
                     target="_blank"
                     rel="noopener noreferrer"
                     className="text-blue-500 hover:underline mt-2 inline-block"
