@@ -502,6 +502,7 @@ export default function Home() {
               <Image
                   src="/click-1.jpg"
                   alt="Click-1"
+                  layout="responsive"
                   width={400}
                   height={200}
                   className="rounded-md transition-transform duration-300 hover:scale-105"
@@ -512,6 +513,7 @@ export default function Home() {
               <Image
                   src="/click-2.jpg"
                   alt="Click-2"
+                  layout="responsive"
                   width={400}
                   height={200}
                   className="rounded-md transition-transform duration-300 hover:scale-105"
@@ -522,6 +524,7 @@ export default function Home() {
               <Image
                   src="/click-3.jpg"
                   alt="Click-3"
+                  layout="responsive"
                   width={400}
                   height={200}
                   className="rounded-md transition-transform duration-300 hover:scale-105"
@@ -533,6 +536,7 @@ export default function Home() {
                     <Image
                       src="/click-4.jpg"
                       alt="Click-4"
+                      layout="responsive"
                       width={400}
                       height={200}
                       className="rounded-md transition-all duration-300 hover:scale-110"
@@ -545,6 +549,7 @@ export default function Home() {
                     <Image
                       src="/click-5.jpg"
                       alt="Click-5"
+                      layout="responsive"
                       width={400}
                       height={200}
                       className="rounded-md transition-all duration-300 hover:scale-110"
@@ -556,6 +561,7 @@ export default function Home() {
               <Image
                   src="/click-6.jpg"
                   alt="Click-6"
+                  layout="responsive"
                   width={400}
                   height={200}
                   className="rounded-md transition-transform duration-300 hover:scale-105"
