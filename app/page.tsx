@@ -167,6 +167,15 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-4">
+                <h4 className="text-sm font-semibold mb-2">Modules:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">pandas</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">numpy</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">tensorflow</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">scikit-learn</span>
+                </div>
+              </div>
+              <div className="mt-4">
                 <h4 className="text-sm font-semibold mb-2">Other Skills:</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Blender</span>
