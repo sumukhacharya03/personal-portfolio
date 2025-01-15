@@ -36,12 +36,12 @@ export default function Home() {
             Projects
           </button>
           <button
-            onClick={() => setSection("work-experience")}
+            onClick={() => setSection("internships")}
             className={`text-lg font-semibold ${
-              section === "work-experience" ? "text-blue-600" : "text-gray-600"
+              section === "internships" ? "text-blue-600" : "text-gray-600"
             }`}
           >
-            Work Experience
+            Internships
           </button>
           <button
             onClick={() => setSection("achievements")}
@@ -448,8 +448,8 @@ export default function Home() {
           </section>
         )}
 
-        {/* Work Experience Section */}
-        {section === "work-experience" && (
+        {/* Internships Section */}
+        {section === "internships" && (
           <section className="w-full">
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
               My Internships
@@ -639,18 +639,6 @@ export default function Home() {
             <p className="text-lg sm:text-xl text-gray-600">
               Feel free to reach out to me for collaborations or any queries !!
             </p>
-            <div className="mt-4">
-              <p className="text-gray-600 transition-colors duration-300 hover:text-blue-600">Phone: +91 99724 54072</p>
-              <p className="text-gray-600">
-                Email:{" "}
-                <a
-                  href="mailto:sumukh.acharya@gmail.com"
-                  className="text-blue-600"
-                >
-                  <u>sumukh.acharya@gmail.com</u>
-                </a>
-              </p>
-            </div>
             <a
               href="mailto:sumukh.acharya@gmail.com"
               className="mt-4 inline-block bg-blue-600 text-white px-6 py-2 rounded-lg transition-all duration-300 hover:bg-blue-700 hover:shadow-lg hover:-translate-y-1"
