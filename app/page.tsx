@@ -514,30 +514,36 @@ export default function Home() {
             Certificates
             </h2>
             <ul className="list-disc pl-5">
-              <li className="text-lg">Learn Photorealism with Blender 4-week Course</li>
-              <a
-              href="/Blender_Certificate.pdf"
-              download="Blender_Certificate.pdf"
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              >
-                <u>Certificate</u>→
-              </a>
-              <li className="text-lg">HackerRank Certificate for Problem Solving (Intermediate)</li>
-              <a
-              href="/Hackerank_Problem_Solving_Certificate.pdf"
-              download="Hackerank_Problem_Solving_Certificate.pdf"
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              >
-                <u>Certificate</u>→
-              </a>
-              <li className="text-lg">HackerRank Certificate for Java (Basic)</li>
-              <a
-              href="/Hackerank_Java_Certificate.pdf"
-              download="Hackerank_Java_Certificate.pdf"
-              className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-              >
-                <u>Certificate</u>→
-              </a>
+              <li className="text-lg">
+                Learn Photorealism with Blender 4-week Course
+                <a
+                  href="/Blender_Certificate.pdf"
+                  download="Blender_Certificate.pdf"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                >
+                  <u>Certificate</u>→
+                </a>
+              </li>
+              <li className="text-lg">
+                HackerRank Certificate for Problem Solving (Intermediate)
+                <a
+                  href="/Hackerank_Problem_Solving_Certificate.pdf"
+                  download="Hackerank_Problem_Solving_Certificate.pdf"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                >
+                  <u>Certificate</u>→
+                </a>
+              </li>
+              <li className="text-lg">
+                HackerRank Certificate for Java (Basic)
+                <a
+                  href="/Hackerank_Java_Certificate.pdf"
+                  download="Hackerank_Java_Certificate.pdf"
+                  className="flex items-center gap-2 hover:underline hover:underline-offset-4"
+                >
+                  <u>Certificate</u>→
+                </a>
+              </li>
             </ul>
           </section>
         )}
