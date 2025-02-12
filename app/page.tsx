@@ -493,13 +493,6 @@ export default function Home() {
                     Ensemble Model.
                   </li>
                 </ul>
-                <a
-                  href="/Internship_Research_Paper.pdf"
-                  download="Internship_Research_Paper.pdf"
-                  className="text-blue-500 hover:underline mt-2 inline-block"
-                >
-                  Research Paper →
-                </a>
               </div>
             </div>
           </section>
