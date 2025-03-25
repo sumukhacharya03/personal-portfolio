@@ -18,6 +18,19 @@
   }
 }
 
+@media (max-width:480px) {
+  body{
+    font-size: 14px;
+  }
+  .menu{
+    display: block;
+    text-align: center;
+  }
+  .sidebar{
+    display: none;
+  }
+}
+
 body {
   color: var(--foreground);
   background: var(--background);
