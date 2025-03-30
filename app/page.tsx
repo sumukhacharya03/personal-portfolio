@@ -111,15 +111,14 @@ export default function Home() {
                 </div>
                 <div className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">
                 <b>BASE PU College (2020-2022)</b><br />
-                1st PUC to 2nd PUC<br />
+                Class 11-12<br />
                 Bengaluru, Karnataka<br />
                 PUC Class 12 - 95%
                 </div>
                 <div className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">
                 <b>PES University (2022-2026)</b><br />
-                B-Tech, Computer Science Engineering<br />
+                B-Tech, CSE Engineering<br />
                 Bengaluru, Karnataka<br />
-                CGPA: 7.4
                 </div>
               </div>
               </div>
@@ -136,53 +135,60 @@ export default function Home() {
                 </div>
               </div>
               <div className="mt-4">
-                <h4 className="text-sm font-semibold mb-2">Web Development:</h4>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">HTML</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">CSS</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">JavaScript</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Next.js</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">React</span>
-                </div>
-              </div>
-              <div className="mt-4">
-                <h4 className="text-sm font-semibold mb-2">Tools:</h4>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Git</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">GitHub</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">VS Code</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">MS Office</span>
-                </div>
-              </div>
-              <div className="mt-4">
-                <h4 className="text-sm font-semibold mb-2">OS:</h4>
-                <div className="flex flex-wrap gap-2">
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Windows</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Ubuntu Linux</span>
-                </div>
-              </div>
-              <div className="mt-4">
                 <h4 className="text-sm font-semibold mb-2">Databases:</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">MySQL</span>
                 </div>
               </div>
               <div className="mt-4">
-                <h4 className="text-sm font-semibold mb-2">Modules:</h4>
+                <h4 className="text-sm font-semibold mb-2">Machine Learning and Big Data:</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">pandas</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">numpy</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">tensorflow</span>
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">scikit-learn</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Matplotlib</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Seaborn</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Pytorch</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">keras</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Librosa</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Kafka</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Spark</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Hadoop</span>
+                </div>
+              </div>
+              <div className="mt-4">
+                <h4 className="text-sm font-semibold mb-2">OS:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">WHTML</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Ubuntu Linux</span>
+                </div>
+              </div>
+              <div className="mt-4">
+                <h4 className="text-sm font-semibold mb-2">Web Dev:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">HTML</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">CSS</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">JavaScript</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">NextJS</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">React</span>
+                </div>
+              </div>
+              <div className="mt-4">
+                <h4 className="text-sm font-semibold mb-2">Version Control:</h4>
+                <div className="flex flex-wrap gap-2">
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Git</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">GitHub</span>
                 </div>
               </div>
               <div className="mt-4">
                 <h4 className="text-sm font-semibold mb-2">Other Skills:</h4>
                 <div className="flex flex-wrap gap-2">
                   <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Blender</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Hadoop</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Kafka</span>
-                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Spark</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">MSOffice</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">VSCode</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Docker</span>
+                  <span className="px-2 py-1 border rounded-md bg-white text-gray-800 shadow-sm transition-transform duration-300 hover:-translate-y-1">Kubernetes</span>
                 </div>
               </div>
               </div>
@@ -465,22 +471,22 @@ export default function Home() {
                   className="rounded-md w-full h-auto object-cover"
                 />
                 <h3 className="text-lg font-medium mt-2">
-                CODMAV(Center of Data Modelling and Visualization)PESU
+                CODMAV (Center of Data Modelling and Visualization), PESU
                 </h3>
-                <ul className="list-disc pl-5 text-sm text-grey-600">
+                <ul className="list-disc pl-5 text-sm text-white-600">
                   <li>
-                    Role:<b>Intern</b>
+                    Role : <b>Intern</b>
                   </li>
                   <li>
                     Duration: 2/06/2024 to 2/08/2024
                   </li>
                   <li>
-                    Along with three teammates, I worked on a machine learning project titled &quot;Predictive
+                    Along with my three teammates, I worked on a machine learning project titled &quot;Predictive
                     Analytics for Early Lung Cancer Risk Using Machine Learning&quot;.
                   </li>
                   <li>
                     My role involved preprocessing the
-                    dataset using various techniques, applying feature selection algorithms, implementing machine learning
+                    dataset using various techniques, applying feature selection algorithms(PCA, BSO, RFE, SelectKBest), implementing machine learning
                     models on the transformed datasets, and visualizing the results through tables, graphs, and other methods.
                   </li>
                   <li>
@@ -490,7 +496,10 @@ export default function Home() {
                   <li>
                     We used Python for the project and learned to work with various Python libraries, including Scikit-learn,
                     Pandas, Numpy, and more. The models we applied included XGBoost, CatBoost, SVM, KNN, and an
-                    Ensemble Model.
+                    Ensemble Model, achieving highest accuracy of 98.746% and a recall of 96.245% for RFE-selected features.
+                  </li>
+                  <li>
+                    Published a research paper titled &quot;Predictive Analytics for Early Lung Cancer Risk Using Machine Learning&quot; at the 2025 IEEE InC4 Conference (March 2025).
                   </li>
                 </ul>
               </div>
@@ -505,10 +514,10 @@ export default function Home() {
             Hackathons
             </h2>
             <ul className="list-disc pl-5">
-              <li className="text-lg">Placed 7th in Data Analytics Kaggle Hackathon</li>
-              <li className="text-lg">Placed 19th in Data Analytics Kaggle Hackathon</li>
-              <li className="text-lg">Placed 5th in ML Kaggle Hackathon</li>
-              <li className="text-lg">Participated in other Hackathons like Ingenious, Hacknight etc.</li>
+              <li className="text-lg">Learn Photorealism with Blender 4-week Course Certificate.</li>
+              <li className="text-lg">Placed Top-10 in Kaggle Data Analytics Hackathon.</li>
+              <li className="text-lg">Placed Top-10 in Kaggle Machine Learning Hackathon.</li>
+              <li className="text-lg">Participated in multiple other Hackathons like Ingenious, Hacknight etc.</li>
             </ul>
             <h2 className="text-lg sm:text-xl md:text-2xl font-semibold mb-2 sm:mb-4">
             Certificates
